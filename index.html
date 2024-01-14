@@ -2,49 +2,58 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximum-scale=1.0"
+    />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+
     <title>Catus</title>
   </head>
   <body>
     <header>
-      <div>
+      <div id="header-container">
         <a href="">
           <img src="/src/assets/logo.png" alt="Catus Logo" />
         </a>
         <nav>
-          <a href="">Loja</a>
-          <a href="">Login</a>
-          <a href="">Sobre</a>
-          <a href="">Contato</a>
+          <ul id="header-nav-bar">
+            <li>Loja</li>
+            <li>Login</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+          </ul>
         </nav>
-        <div>
+        <div id="search-bar">
           <input type="text" placeholder="Digite aqui sua busca" />
           <img src="/src/assets/search-button.png" alt="Botão de busca" />
-          <img src="/src/assets/cart.png" alt="Carrinho de compras" />
+          <img id="cart" src="/src/assets/cart.png" alt="Carrinho de compras" />
         </div>
       </div>
     </header>
 
-    <main>
-      <section>
-        <!-- MOSAICO -->
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+    <!-- <main>
+      <section class="banners-container">
+        <div class="banners">
+          <img src="/src/assets/banner01.png" alt="" />
+          <img src="/src/assets/banner02.png" alt="" />
+          <img src="/src/assets/banner03.png" alt="" />
+          <img src="/src/assets/banner04.png" alt="" />
+          <img src="/src/assets/banner05.png" alt="" />
         </div>
       </section>
 
       <section>
         <div>
           <h1>Oportunidades para economizar</h1>
-          <div>
-            <!-- CARROSSEL -->
-          </div>
+          <div></div>
         </div>
       </section>
     </main>
@@ -52,6 +61,6 @@
       <div>Central de Atendimento</div>
       <div>Selos de Segurança</div>
       <div>Formas de Pagamento</div>
-    </footer>
+    </footer> -->
   </body>
 </html>
