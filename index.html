@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximum-scale=1.0"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
     <meta name="description" content="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +28,7 @@
             <li><a href="#">Loja</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#footer-container">Contato</a></li>
           </ul>
         </nav>
         <div id="search-bar">
@@ -45,28 +45,74 @@
     </header>
 
     <main>
-      <section class="banners-container">
-        <div class="banners">
-          <img src="/src/assets/banner01.png" alt="" />
-          <img src="/src/assets/banner02.png" alt="" />
-          <img src="/src/assets/banner03.png" alt="" />
-          <img src="/src/assets/banner04.png" alt="" />
-          <img src="/src/assets/banner05.png" alt="" />
-        </div>
+      <section id="banner-container">
+        <img
+          class="banner-img banner01"
+          src="/src/assets/banner01.png"
+          alt=""
+        />
+        <img
+          class="banner-img banner02"
+          src="/src/assets/banner02.png"
+          alt=""
+        />
+        <img
+          class="banner-img banner03"
+          src="/src/assets/banner03.png"
+          alt=""
+        />
+        <img
+          class="banner-img banner04"
+          src="/src/assets/banner04.png"
+          alt=""
+        />
+        <img
+          class="banner-img banner05"
+          src="/src/assets/banner05.png"
+          alt=""
+        />
       </section>
 
-      <section>
-        <div>
+      <section id="product-container">
+        <div id="product-carousel">
           <h1>Oportunidades para economizar</h1>
           <div></div>
         </div>
       </section>
     </main>
     <footer>
-      <div>Central de Atendimento</div>
-      <div>Selos de Segurança</div>
-      <div>Formas de Pagamento</div>
+      <section id="footer-container">
+        <div id="call-center-container">
+          <h1 class="footer-title">Central de Atendimento</h1>
+          <span>Ajuda e suporte</span>
+          <span>Fale conosco</span>
+          <span>FAQ</span>
+          <a href="http://wa.me/11999999999" target="_blank"
+            >Whatsapp: (11) 99999-9999</a
+          >
+          <h3>Nossos horários</h3>
+          <p>Segunda a sexta das 9h às 18h</p>
+        </div>
+
+        <div>
+          <h1 class="footer-title">Selos de Segurança</h1>
+          <img
+            src="/src/assets/stamp02.png"
+            alt="Selo de segurança do Google"
+          />
+          <img src="/src/assets/stamp01.png" alt="Selo de Loja Protegida" />
+        </div>
+        <div>
+          <h1 class="payment-title">Formas de Pagamento</h1>
+          <img src="/src/assets/visa.png" alt="Bandeira do Visacard" />
+          <img src="/src/assets/mastercard.png" alt="Bandeira da Mastercard" />
+          <img src="/src/assets/amex.png" alt="Bandeira da Amex" />
+          <img src="/src/assets/diners.png" alt="Bandeira da Diners" />
+          <img src="/src/assets/discover.png" alt="Bandeira da Discovercard" />
+          <img src="/src/assets/pix.png" alt="Boleto e/ou Pix" />
+        </div>
+      </section>
     </footer>
-    <script src="main.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
