@@ -84,40 +84,16 @@ a {
 }
 
 #banner-container {
-  display: grid;
-  grid-template-columns: auto 1fr auto; /* Colunas automáticas nos cantos e uma coluna de tamanho 1fr no meio */
-  grid-gap: 10px;
+  min-width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
-.banner-img {
-  max-width: 100%; /* Adicionado max-width */
-  height: auto; /* Adicionado height: auto */
-  object-fit: cover;
-}
-
-.banner01 {
-  grid-column: 1;
-  grid-row: span 2;
-}
-
-.banner02 {
-  grid-column: 1;
-  grid-row: span 1;
-}
-
-.banner03 {
-  grid-column: 2;
-  grid-row: span 2;
-}
-
-.banner04 {
-  grid-column: 3;
-  grid-row: span 1;
-}
-
-.banner05 {
-  grid-column: 3;
-  grid-row: span 1;
+.side-banners {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 #footer-container {
