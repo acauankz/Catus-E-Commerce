@@ -1,3 +1,4 @@
+/* --------GLOBAL-------- */
 * {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
@@ -14,8 +15,8 @@ body {
 }
 /* --------GLOBAL-------- */
 
+/* --------HEADER-------- */
 #header-container {
-  /* min-width: 1200px; */
   padding: 20px 120px;
   margin-bottom: 28px;
   top: 0;
@@ -83,6 +84,7 @@ a {
 }
 /* --------HEADER-------- */
 
+/* --------BANNERS-------- */
 #banner-container {
   display: flex;
   justify-content: center;
@@ -96,6 +98,7 @@ a {
 }
 /* --------BANNERS-------- */
 
+/* --------SLIDER-------- */
 #slider-container {
   margin: 65px 0 50px 0;
   display: flex;
@@ -154,9 +157,9 @@ a {
   color: #000;
   cursor: pointer;
 }
-
 /* --------SLIDER-------- */
 
+/* --------FOOTER-------- */
 #footer-container {
   display: flex;
   padding: 50px 120px;
@@ -201,6 +204,7 @@ a {
 }
 /* --------FOOTER-------- */
 
+/* --------MEDIA QUERIES-------- */
 @media screen and (max-width: 1270px) {
   .side-banners {
     width: 290px;
@@ -469,3 +473,4 @@ a {
     height: 300px;
   }
 }
+/* --------MEDIA QUERIES-------- */
