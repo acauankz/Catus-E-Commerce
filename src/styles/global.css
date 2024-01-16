@@ -297,6 +297,7 @@ a {
   #burguer-menu {
     display: block;
     width: 40px;
+    cursor: pointer;
   }
   #header-content {
     display: flex;
